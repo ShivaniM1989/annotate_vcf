@@ -1,4 +1,4 @@
-import annotate_vcf2
+import annotate_vcf
 import pytest
 
 
