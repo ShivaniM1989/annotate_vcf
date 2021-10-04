@@ -4,7 +4,7 @@ import pytest
 
 def test_extract_exac_af_pass():
     """
-    check to see if correct allele frequency being
+    Checks if correct allele frequency
     reported from ExAC API
     """
     site = "14-21853913-T-C"
