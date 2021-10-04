@@ -7,6 +7,9 @@ The output produced contains the following columns:
 5. seq_depth_at_site: sequencing coverage at site
 6. num_var_alleles: Number of reads supporting alternate allele(s)
 7. perc_var_versus_ref_alleles: percentage of reads supporting variant allele(s): percentage of reads supporting reference allele
-8. variant_class: type of variation as determined by running Ensembl VEP - https://uswest.ensembl.org/info/docs/tools/vep/index.html. In case no information can be derived from running VEP, the type defined from the info column of the vcf is output instead 
-9. consequence: most severe/deleterious effect of variant determined by running Ensembl VEP. In case no information can be derived from running VEP, the effect of the variant is stated as "unknown"
-10. exac_af: Allele frequencies from ExAC API - http://exac.hms.harvard.edu/ where available. In case allele frequencies cannot be determined from the API, the column value is "unavailable"
+8. variant_class: type of variation as determined by running Ensembl VEP - https://uswest.ensembl.org/info/docs/tools/vep/index.html.
+In case no information can be derived from running VEP, the type defined from the info column of the vcf is output instead 
+9. consequence: most severe/deleterious effect of variant determined by running Ensembl VEP. In case no information can be derived from running VEP,
+the effect of the variant is stated as "unknown"
+10. exac_af: Allele frequencies from ExAC API - http://exac.hms.harvard.edu/ where available.
+In case allele frequencies cannot be determined from the API, the column value is "unavailable"
