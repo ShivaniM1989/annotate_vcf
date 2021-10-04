@@ -8,7 +8,7 @@ def test_extract_exac_af_pass():
     reported from ExAC API
     """
     site = "14-21853913-T-C"
-    af = annotate_vcf2.extract_exac_af(site)
+    af = annotate_vcf.extract_exac_af(site)
     assert af == 0.000046048996131884326
 
 
@@ -19,4 +19,4 @@ def test_extract_exac_af_fail():
     """
     site = "14_21853913_T_C"
     with pytest.raises(AssertionError):
-        annotate_vcf2.extract_exac_af(site)
+        annotate_vcf.extract_exac_af(site)
