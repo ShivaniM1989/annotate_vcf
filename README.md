@@ -7,9 +7,9 @@ Each variant in the vcf file is annotated with relevant information including va
 *python annotate_vcf.py -i <input_vcf_file> -o <output_annotation_file>*
 
 ### Dependencies: <br />
-1. python 3.9 <br />
-2. ENSEMBL Variant Effect Predictor (VEP): More information can be found at: https://uswest.ensembl.org/info/docs/tools/vep/index.html
-3. Python modules: <br />
+* python 3.9 <br />
+* ENSEMBL Variant Effect Predictor (VEP): More information can be found at: https://uswest.ensembl.org/info/docs/tools/vep/index.html
+* Python modules: <br />
 numpy, subprocess, vcf, requests, collections, argparse and pytest for unit tests
 
 ### To run unit tests: <br />
