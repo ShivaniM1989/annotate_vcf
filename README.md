@@ -1,5 +1,5 @@
 # annotate_vcf
-Repo that contains code to annotate vcf files.
+Repo that contains code to annotate vcf files, with example input and output files and a file describing the fields in the output.
 
 Each variant in the vcf file is annotated with relevant information including variant type, effect, sequencing coverage at site etc.
 
